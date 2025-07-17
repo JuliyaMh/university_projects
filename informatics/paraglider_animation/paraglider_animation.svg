@@ -1,0 +1,201 @@
+<svg width="1000" height="750" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="2002" width="2002" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
+  </g>
+ </g>
+<g>
+  
+<!-- Код, отвечающий за движение облаков. Облака двигаются по одной траекторию, но начинают движение в разное время. Облака созданы с помощью svg-редактора.-->
+ <g>
+  <path fill="none" stroke="#7AD6CA" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m173.32617,328.10063c-15.05852,0 -27.98388,7.16257 -34.31062,17.50276c-2.52687,-1.2939 -5.31399,-2.07735 -8.28852,-2.07735c-8.99506,0 -16.48023,6.63696 -18.79373,15.64641c-3.94886,-1.43158 -8.5403,-2.29834 -13.44475,-2.29834c-14.71337,0 -26.64855,7.38362 -26.64855,16.48619c0,8.21661 9.78844,14.97142 22.5043,16.22099c-0.56991,0.88689 -1.01197,1.76515 -1.01197,2.69613c0,8.71521 26.03272,15.82319 58.11602,15.82319c32.08329,0 58.11605,-7.10798 58.11602,-15.82319c0,-0.58639 -0.39682,-1.1097 -0.62646,-1.67956c1.40525,0.32053 2.79665,0.66299 4.33702,0.66299c8.58277,0.00002 15.56507,-5.34887 15.56507,-11.9337c0,-6.58484 -6.9823,-11.9337 -15.56507,-11.9337c-1.0518,0 -1.94615,0.33322 -2.93954,0.48619c0.86861,-2.63295 1.44567,-5.31952 1.44567,-8.17679c0,-17.43042 -17.20225,-31.6022 -38.45487,-31.6022l-0.00001,-0.00001l-0.00001,-0.00001z" id="svg_4"/>
+  <animateTransform id="cl1/1" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="0; cl4/1.end" dur="7s" repeatCount="1"/>
+  <animateTransform  id="cl2/1" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/1.end" dur="10s" repeatCount="1" additive="sum"/>
+  <animateTransform id="cl3/1" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/1.end" dur="10s" repeatCount="1" additive="sum"/>
+  <animateTransform id="cl4/1" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/1.end" dur="10s" repeatCount="1" additive="sum"/>
+  </g>
+  <g>
+<path transform="rotate(-3.228616714477539 496.94909667968864,272.1643676757811) " id="svg_27" d="m523.1563,213.66436c-17.16864,0 -31.9052,10.47526 -39.11848,25.59779c-2.88095,-1.89232 -6.05863,-3.03812 -9.44997,-3.03812c-10.25551,0 -18.78956,9.70656 -21.42725,22.88288c-4.50221,-2.09369 -9.73703,-3.36133 -15.32873,-3.36133c-16.77511,0 -30.38275,10.79856 -30.38275,24.11106c0,12.0168 11.16007,21.89571 25.65777,23.72321c-0.64977,1.29707 -1.15378,2.58154 -1.15378,3.9431c0,12.74601 29.68062,23.14143 66.25967,23.14143c36.57905,0 66.25971,-10.39543 66.25967,-23.14143c0,-0.8576 -0.45242,-1.62293 -0.71424,-2.45636c1.60217,0.46877 3.18854,0.96962 4.94475,0.96962c9.78545,0.00004 17.74616,-7.82273 17.74616,-17.45305c0,-9.63033 -7.96071,-17.45304 -17.74616,-17.45304c-1.19918,0 -2.21886,0.48734 -3.35145,0.71105c0.99033,-3.85069 1.64825,-7.7798 1.64825,-11.95857c0,-25.49199 -19.61276,-46.21823 -43.84345,-46.21823l-0.00001,-0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#7AD6CA" fill="none"/>
+
+ <animateTransform id="cl1/2" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="0.6; cl4/2.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/2" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/2.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/2" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/2.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/2" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/2.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path stroke="#7AD6CA" id="svg_28" d="m219.51347,60.26163c-24.74586,0 -45.98626,10.47526 -56.38307,25.59779c-4.15243,-1.89232 -8.73255,-3.03812 -13.62062,-3.03812c-14.78169,0 -27.08216,9.70656 -30.88397,22.88288c-6.48922,-2.09369 -14.03438,-3.36133 -22.09392,-3.36133c-24.17865,0 -43.79189,10.79855 -43.79189,24.11105c0,12.01679 16.08546,21.8957 36.98159,23.7232c-0.93654,1.29707 -1.66299,2.58154 -1.66299,3.9431c0,12.74601 42.77989,23.14142 95.50277,23.14142c52.72287,0 95.50282,-10.39542 95.50277,-23.14142c0,-0.8576 -0.65209,-1.62293 -1.02946,-2.45636c2.30927,0.46877 4.59578,0.96962 7.12708,0.96962c14.10417,0.00004 25.57827,-7.82273 25.57827,-17.45304c0,-9.63032 -11.4741,-17.45304 -25.57827,-17.45304c-1.72843,0 -3.19814,0.48734 -4.83057,0.71105c1.4274,-3.85069 2.37568,-7.7798 2.37568,-11.95857c0,-25.49199 -28.26867,-46.21823 -63.19336,-46.21823l-0.00002,-0.00001l-0.00002,0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+
+ <animateTransform id="cl1/3" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="0.8999999999999999; cl4/3.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/3" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/3.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/3" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/3.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/3" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/3.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path stroke="#7AD6CA" id="svg_29" d="m654.16699,347.76434c-14.09938,0 -26.20146,9.22181 -32.12522,22.53481c-2.36592,-1.66589 -4.97552,-2.67458 -7.76059,-2.67458c-8.42212,0 -15.43053,8.54509 -17.59668,20.14476c-3.69734,-1.84316 -7.99633,-2.95912 -12.58839,-2.95912c-13.7762,0 -24.95119,9.50642 -24.95119,21.22597c0,10.57889 9.16497,19.27571 21.0709,20.88453c-0.53361,1.14187 -0.94752,2.27264 -0.94752,3.47127c0,11.22084 24.37458,20.37237 54.41435,20.37237c30.03976,0 54.41438,-9.15153 54.41435,-20.37237c0,-0.75498 -0.37154,-1.42873 -0.58655,-2.16243c1.31575,0.41268 2.61852,0.85359 4.06077,0.85359c8.03609,0.00003 14.57366,-6.88667 14.57366,-15.36465c0,-8.47798 -6.53757,-15.36464 -14.57366,-15.36464c-0.9848,0 -1.82219,0.42902 -2.7523,0.62597c0.81329,-3.38992 1.35359,-6.84889 1.35359,-10.52763c0,-22.44167 -16.10656,-40.68784 -36.0055,-40.68784l-0.00001,-0.00001l-0.00001,0z" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+
+ <animateTransform id="cl1/4" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="1.2; cl4/4.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/4" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/4.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/4" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/4.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/4" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/4.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path transform="rotate(-0.9462780356407166 664.0950317382819,51.629364013668976) " id="svg_30" d="m688.98451,21.62937c-16.30541,0 -30.30102,5.37193 -37.15163,13.12707c-2.7361,-0.97042 -5.75401,-1.55801 -8.97483,-1.55801c-9.73987,0 -17.84483,4.97772 -20.3499,11.73481c-4.27584,-1.07369 -9.24746,-1.72376 -14.55801,-1.72376c-15.93167,0 -28.85513,5.53772 -28.85513,12.36464c0,6.16246 10.59895,11.22857 24.36771,12.16574c-0.6171,0.66517 -1.09577,1.32387 -1.09577,2.0221c0,6.53641 28.1883,11.8674 62.92818,11.8674c34.73988,0 62.92822,-5.33099 62.92818,-11.8674c0,-0.43979 -0.42967,-0.83227 -0.67833,-1.25967c1.52161,0.2404 3.02822,0.49724 4.69614,0.49724c9.29344,0.00002 16.8539,-4.01165 16.8539,-8.95028c0,-4.93863 -7.56045,-8.95027 -16.8539,-8.95027c-1.13889,0 -2.1073,0.24992 -3.18294,0.36464c0.94054,-1.97471 1.56537,-3.98964 1.56537,-6.1326c0,-13.07282 -18.62665,-23.70165 -41.63903,-23.70165l-0.00001,-0.00001l0,0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#7AD6CA" fill="none"/>
+
+ <animateTransform id="cl1/5" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="1.5; cl4/5.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/5" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/5.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/5" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/5.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/5" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/5.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path stroke="#7AD6CA" id="svg_31" d="m16.83207,438.1364c-7.28948,0 -13.54634,5.37193 -16.60896,13.12707c-1.2232,-0.97042 -2.57238,-1.55801 -4.01228,-1.55801c-4.3543,0 -7.97769,4.97772 -9.0976,11.73481c-1.91155,-1.07369 -4.13416,-1.72376 -6.50829,-1.72376c-7.12239,0 -12.89994,5.53772 -12.89994,12.36464c0,6.16246 4.73835,11.22856 10.8938,12.16574c-0.27588,0.66517 -0.48987,1.32387 -0.48987,2.0221c0,6.53641 12.60183,11.86739 28.1326,11.86739c15.53077,0 28.13261,-5.33099 28.1326,-11.86739c0,-0.43979 -0.19209,-0.83227 -0.30325,-1.25967c0.68025,0.2404 1.35379,0.49724 2.09945,0.49724c4.15472,0.00002 7.53468,-4.01165 7.53468,-8.95028c0,-4.93863 -3.37997,-8.95027 -7.53468,-8.95027c-0.50915,0 -0.94209,0.24992 -1.42296,0.36464c0.42048,-1.97471 0.69981,-3.98964 0.69981,-6.1326c0,-13.07281 -8.32721,-23.70165 -18.6151,-23.70165l-0.00001,-0.00001l0,0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+
+ <animateTransform id="cl1/6" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="1.7999999999999998; cl4/6.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/6" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/6.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/6" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/6.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/6" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/6.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="#ffffff" stroke-width="3" d="m837.6828,114.14635c-20.62154,0 -38.32187,12.35544 -46.98588,30.19226c-3.46036,-2.23197 -7.27713,-3.58342 -11.35052,-3.58342c-12.31807,0 -22.56846,11.44876 -25.73664,26.99006c-5.40768,-2.46948 -11.69531,-3.96464 -18.4116,-3.96464c-20.14887,0 -36.49324,12.73676 -36.49324,28.43868c0,14.17365 13.40455,25.8257 30.81798,27.98121c-0.78045,1.52988 -1.38583,3.04489 -1.38583,4.65083c0,15.03375 35.6499,27.29501 79.58562,27.29501c43.93571,0 79.58566,-12.26127 79.58562,-27.29501c0,-1.01152 -0.54341,-1.91423 -0.85788,-2.89724c1.92439,0.55291 3.82981,1.14365 5.93923,1.14365c11.75347,0.00004 21.31522,-9.22681 21.31522,-20.58564c0,-11.35884 -9.56175,-20.58563 -21.31522,-20.58563c-1.44036,0 -2.66512,0.57481 -4.02548,0.83868c1.1895,-4.54183 1.97974,-9.17618 1.97974,-14.10497c0,-30.06748 -23.55722,-54.51381 -52.66112,-54.51381l-0.00001,-0.00002l0.00001,0z" id="svg_32" stroke="#83d9ea"/>
+
+ <animateTransform id="cl1/7" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="2.1; cl4/7.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/7" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/7.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/7" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/7.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/7" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/7.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m167.02689,500.54861c-18.51144,0 -34.40057,9.31134 -42.17803,22.75358c-3.10628,-1.68206 -6.53249,-2.70055 -10.18907,-2.70055c-11.05762,0 -20.25913,8.62805 -23.10313,20.34033c-4.85434,-1.86106 -10.49858,-2.98784 -16.52762,-2.98784c-18.08713,0 -32.75905,9.59871 -32.75905,21.43204c0,10.68159 12.03292,19.46284 27.66452,21.08728c-0.70059,1.15295 -1.24402,2.2947 -1.24402,3.50497c0,11.32978 32.00201,20.57015 71.44199,20.57015c39.43997,0 71.44203,-9.24037 71.44199,-20.57015c0,-0.76231 -0.48781,-1.4426 -0.7701,-2.18343c1.72748,0.41669 3.43793,0.86188 5.3315,0.86188c10.55079,0.00003 19.13413,-6.95353 19.13413,-15.51381c0,-8.56028 -8.58334,-15.5138 -19.13413,-15.5138c-1.29297,0 -2.39241,0.43319 -3.61357,0.63205c1.06779,-3.42283 1.77716,-6.91538 1.77716,-10.62983c0,-22.65954 -21.14672,-41.08285 -47.27255,-41.08285l-0.00001,-0.00001l-0.00001,-0.00001z" id="svg_33" stroke="#7AD6CA"/>
+
+ <animateTransform id="cl1/8" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="2.4; cl4/8.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/8" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/8.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/8" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/8.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/8" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/8.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m812.39841,489.52365c-28.48651,0 -52.93766,11.01246 -64.90608,26.9105c-4.78012,-1.98936 -10.05259,-3.19392 -15.67955,-3.19392c-17.01613,0 -31.17597,10.20433 -35.55248,24.05636c-7.47014,-2.20106 -16.15585,-3.5337 -25.4337,-3.5337c-27.83356,0 -50.41159,11.35233 -50.41159,25.34752c0,12.63304 18.51698,23.01856 42.57182,24.93978c-1.07811,1.36359 -1.91437,2.71392 -1.91437,4.14531c0,13.39965 49.24661,24.32816 109.93922,24.32816c60.6926,0 109.93928,-10.92852 109.93922,-24.32816c0,-0.90158 -0.75067,-1.70616 -1.18508,-2.58232c2.65835,0.49281 5.29049,1.01934 8.20442,1.01934c16.23619,0.00004 29.44475,-8.22389 29.44475,-18.34807c0,-10.12419 -13.20855,-18.34806 -29.44475,-18.34806c-1.98971,0 -3.68158,0.51233 -5.56078,0.74752c1.64317,-4.04816 2.7348,-8.17877 2.7348,-12.57183c0,-26.79927 -32.54184,-48.58839 -72.74583,-48.58839l-0.00002,-0.00001l0,-0.00003z" id="svg_34" stroke="#7AD6CA"/>
+
+ <animateTransform id="cl1/9" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="2.6999999999999997; cl4/9.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/9" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/9.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/9" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/9.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/9" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/9.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke="#7AD6CA" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m977.05989,310.70366c-18.03187,0 -33.50937,8.95321 -41.08534,21.87845c-3.0258,-1.61737 -6.36326,-2.59668 -9.92511,-2.59668c-10.77115,0 -19.73429,8.2962 -22.5046,19.55801c-4.72858,-1.78948 -10.2266,-2.87293 -16.09945,-2.87293c-17.61855,0 -31.91037,9.22953 -31.91037,20.60773c0,10.27076 11.72119,18.71427 26.94782,20.27623c-0.68244,1.10861 -1.21179,2.20644 -1.21179,3.37017c0,10.89402 31.17294,19.77899 69.59116,19.77899c38.41821,0 69.5912,-8.88498 69.59116,-19.77899c0,-0.73299 -0.47517,-1.38712 -0.75015,-2.09945c1.68273,0.40066 3.34886,0.82873 5.19337,0.82873c10.27746,0.00003 18.63843,-6.68609 18.63843,-14.91713c0,-8.23104 -8.36097,-14.91712 -18.63843,-14.91712c-1.25948,0 -2.33043,0.41653 -3.51995,0.60774c1.04012,-3.29118 1.73112,-6.6494 1.73112,-10.22099c0,-21.78802 -20.59888,-39.50275 -46.04787,-39.50275l-0.00001,-0.00001l0.00001,0z" id="svg_35"/>
+
+ <animateTransform id="cl1/10" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="3.0; cl4/10.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/10" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/10.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/10" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/10.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/10" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/10.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m1120.9869,-18.99362c-19.18284,0 -35.64826,10.83339 -43.7078,26.47293c-3.21894,-1.95702 -6.76942,-3.14199 -10.55862,-3.14199c-11.45867,0 -20.99392,10.0384 -23.94106,23.6652c-5.0304,-2.16527 -10.87936,-3.47624 -17.12707,-3.47624c-18.74314,0 -33.94721,11.16774 -33.94721,24.93537c0,12.42762 12.46935,22.64428 28.6679,24.53425c-0.726,1.34142 -1.28914,2.6698 -1.28914,4.0779c0,13.18177 33.16271,23.93258 74.03315,23.93258c40.87044,0 74.03319,-10.75082 74.03315,-23.93258c0,-0.88692 -0.5055,-1.67842 -0.79803,-2.54034c1.79013,0.4848 3.56262,1.00277 5.52487,1.00277c10.93346,0.00004 19.82811,-8.09017 19.82811,-18.04973c0,-9.95957 -8.89465,-18.04972 -19.82811,-18.04972c-1.33987,0 -2.47918,0.504 -3.74463,0.73536c1.10652,-3.98233 1.84162,-8.04578 1.84162,-12.36741c0,-26.36351 -21.9137,-47.79834 -48.9871,-47.79834l-0.00001,-0.00001l-0.00002,0z" id="svg_36" stroke="#7AD6CA"/>
+
+ <animateTransform id="cl1/11" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="3.3; cl4/11.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/11" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/11.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/11" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/11.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/11" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/11.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke="#7AD6CA" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m1145.81831,214.26136c-8.05679,0 -14.97227,5.99865 -18.35728,14.65856c-1.35195,-1.08364 -2.84316,-1.73978 -4.43462,-1.73978c-4.81264,0 -8.81745,5.55845 -10.05525,13.10387c-2.11277,-1.19895 -4.56933,-1.92486 -7.19337,-1.92486c-7.87212,0 -14.25783,6.18379 -14.25783,13.80718c0,6.88141 5.23713,12.53856 12.04052,13.58508c-0.30492,0.74277 -0.54144,1.47832 -0.54144,2.25801c0,7.29899 13.92834,13.25192 31.09392,13.25192c17.16558,0 31.09394,-5.95293 31.09392,-13.25192c0,-0.4911 -0.21231,-0.92937 -0.33517,-1.40663c0.75186,0.26844 1.4963,0.55525 2.32044,0.55525c4.59205,0.00002 8.32781,-4.47968 8.32781,-9.99448c0,-5.5148 -3.73575,-9.99447 -8.32781,-9.99447c-0.56275,0 -1.04125,0.27907 -1.57275,0.40718c0.46474,-2.20509 0.77348,-4.4551 0.77348,-6.84807c0,-14.59798 -9.20375,-26.46684 -20.57458,-26.46684l-0.00001,-0.00001l0.00002,0.00001z" id="svg_37"/>
+
+ <animateTransform id="cl1/12" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="3.5999999999999996; cl4/12.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/12" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/12.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/12" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/12.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/12" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/12.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke="#7AD6CA" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m1188.99766,472.23137c-17.26456,0 -32.08345,8.32649 -39.33704,20.34696c-2.89705,-1.50415 -6.09248,-2.41492 -9.50277,-2.41492c-10.31281,0 -18.89454,7.71547 -21.54697,18.18896c-4.52736,-1.66422 -9.79143,-2.67182 -15.41437,-2.67182c-16.86884,0 -30.5525,8.58347 -30.5525,19.1652c0,9.55181 11.22242,17.40428 25.80112,18.8569c-0.6534,1.03101 -1.16023,2.05199 -1.16023,3.13426c0,10.13144 29.84645,18.39447 66.62987,18.39447c36.78341,0 66.6299,-8.26303 66.62987,-18.39447c0,-0.68168 -0.45495,-1.29002 -0.71823,-1.95249c1.61112,0.37262 3.20636,0.77072 4.97238,0.77072c9.84012,0.00003 17.84531,-6.21806 17.84531,-13.87293c0,-7.65487 -8.00519,-13.87293 -17.84531,-13.87293c-1.20588,0 -2.23126,0.38737 -3.37017,0.5652c0.99586,-3.0608 1.65745,-6.18395 1.65745,-9.50553c0,-20.26286 -19.72234,-36.73757 -44.08841,-36.73757l-0.00001,-0.00001l0.00001,0z" id="svg_38"/>
+
+ <animateTransform id="cl1/13" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="3.9; cl4/13.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/13" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/13.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/13" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/13.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/13" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/13.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m314.33572,649.12512c-30.75326,0 -57.15006,11.61115 -70.07084,28.37348c-5.16049,-2.09752 -10.8525,-3.36756 -16.92722,-3.36756c-18.37015,0 -33.65673,10.75909 -38.38149,25.36419c-8.06456,-2.32072 -17.44142,-3.72581 -27.45753,-3.72581c-30.04836,0 -54.42299,11.9695 -54.42299,26.72554c0,13.31983 19.99043,24.26997 45.95938,26.29563c-1.1639,1.43772 -2.0667,2.86147 -2.0667,4.37067c0,14.12812 53.1653,25.65076 118.68739,25.65076c65.52208,0 118.68746,-11.52265 118.68739,-25.65076c0,-0.95059 -0.8104,-1.79891 -1.27938,-2.72271c2.86988,0.51961 5.71147,1.07476 8.85727,1.07476c17.52815,0.00004 31.78775,-8.67098 31.78775,-19.34556c0,-10.67459 -14.2596,-19.34556 -31.78775,-19.34556c-2.14803,0 -3.97453,0.54018 -6.00326,0.78816c1.77393,-4.26823 2.95241,-8.62341 2.95241,-13.25529c0,-28.25622 -35.13129,-51.2299 -78.53442,-51.2299l-0.00002,-0.00002l0.00001,-0.00002z" id="svg_39" stroke="#7AD6CA"/>
+
+ <animateTransform id="cl1/14" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="4.2; cl4/14.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/14" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/14.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/14" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/14.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/14" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/14.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m737.60055,691.43005c-17.98598,0 -33.42409,10.07353 -40.98078,24.6161c-3.0181,-1.81975 -6.34706,-2.92161 -9.89985,-2.92161c-10.74374,0 -19.68407,9.3343 -22.44733,22.00531c-4.71654,-2.0134 -10.20058,-3.23242 -16.05848,-3.23242c-17.57372,0 -31.82917,10.38442 -31.82917,23.18638c0,11.55594 11.69136,21.05599 26.87925,22.8134c-0.6807,1.24733 -1.20871,2.48253 -1.20871,3.79188c0,12.25719 31.09361,22.25394 69.41407,22.25394c38.32045,0 69.4141,-9.99676 69.41407,-22.25394c0,-0.82471 -0.47396,-1.56069 -0.74824,-2.36215c1.67844,0.4508 3.34034,0.93243 5.18016,0.93243c10.2513,0.00003 18.591,-7.52272 18.591,-16.78371c0,-9.261 -8.33969,-16.7837 -18.591,-16.7837c-1.25627,0 -2.3245,0.46865 -3.511,0.68378c1.03748,-3.70301 1.72671,-7.48144 1.72671,-11.49995c0,-24.51436 -20.54646,-44.44573 -45.93069,-44.44573l-0.00001,-0.00001z" id="svg_40" stroke="#7AD6CA"/>
+
+ <animateTransform id="cl1/15" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="4.5; cl4/15.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/15" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/15.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/15" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/15.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/15" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/15.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path fill="none" stroke="#7AD6CA" stroke-width="3" stroke-opacity="null" fill-opacity="null" d="m1109.68949,615.83594c-20.33379,0 -37.78712,11.46011 -46.33023,28.00439c-3.41207,-2.07023 -7.17558,-3.32375 -11.19213,-3.32375c-12.14618,0 -22.25354,10.61913 -25.37751,25.03424c-5.33222,-2.29053 -11.53211,-3.67735 -18.15468,-3.67735c-19.86771,0 -35.98401,11.81379 -35.98401,26.37788c0,13.14656 13.2175,23.95425 30.38794,25.95356c-0.76956,1.41902 -1.36649,2.82424 -1.36649,4.31381c0,13.94433 35.15244,25.31709 78.47507,25.31709c43.32263,0 78.47512,-11.37276 78.47507,-25.31709c0,-0.93822 -0.53583,-1.77551 -0.84591,-2.68729c1.89754,0.51285 3.77637,1.06078 5.85635,1.06078c11.58946,0.00004 21.01778,-8.55819 21.01778,-19.09391c0,-10.53573 -9.42832,-19.0939 -21.01778,-19.0939c-1.42026,0 -2.62793,0.53315 -3.96931,0.7779c1.1729,-4.21271 1.95211,-8.51123 1.95211,-13.08286c0,-27.88865 -23.2285,-50.56348 -51.92628,-50.56348l-0.00001,-0.00002l0.00002,0z" id="svg_41"/>
+
+ <animateTransform id="cl1/16" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="4.8; cl4/16.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/16" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/16.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/16" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/16.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/16" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/16.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+
+<g>
+<path id="svg_42" d="m454.17016,447.32131c-23.49897,0 -43.66912,8.50556 -53.54206,20.78453c-3.9432,-1.5365 -8.29254,-2.46685 -12.93431,-2.46685c-14.03687,0 -25.71755,7.88139 -29.3278,18.58012c-6.16224,-1.70001 -13.32722,-2.72928 -20.98066,-2.72928c-22.96035,0 -41.58532,8.76806 -41.58532,19.57736c0,9.75723 15.27495,17.77857 35.11817,19.26243c-0.88935,1.05318 -1.5792,2.09612 -1.5792,3.20166c0,10.34932 40.62431,18.79005 90.69061,18.79005c50.06629,0 90.69066,-8.44073 90.69061,-18.79005c0,-0.69634 -0.61924,-1.31776 -0.97759,-1.99448c2.19291,0.38063 4.36421,0.7873 6.76796,0.7873c13.39349,0.00003 24.28944,-6.35179 24.28944,-14.17128c0,-7.8195 -10.89595,-14.17127 -24.28944,-14.17127c-1.64134,0 -3.03699,0.3957 -4.58717,0.57735c1.35548,-3.12663 2.25598,-6.31694 2.25598,-9.70995c0,-20.69863 -26.84428,-37.52763 -60.00919,-37.52763l-0.00002,-0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#7AD6CA" fill="none"/>
+
+ <animateTransform id="cl1/17" attributeName="transform" attributeType="XML" type="translate" to="50, -100" begin="5.1; cl4/17.end" dur="10s" repeatCount="lab4"/>
+  <animateTransform  id="cl2/17" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl1/17.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl3/17" attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="50, -100" begin="cl2/17.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  <animateTransform id="cl4/17" attributeName="transform" attributeType="XML" type="translate" to="0, 0" from="50, -100" begin="cl3/17.end" dur="10s" repeatCount="lab4" additive="sum"/>
+  </g>
+  
+  <g id="svg_3" stroke="null">
+    
+  <!-- Код, описывающий параплан -->
+   <rect x="339.61855" y="513.67999" width="178.76779" height="90.32" fill="#28a" rx="10" ry="10" stroke-width="3" id="svg_2" stroke="#000"/>
+   <rect x="369.41318" y="513.67999" width="29.79463" height="90.32" fill="#000" id="svg_5" stroke="#000"/>
+   <rect x="458.79707" y="513.67999" width="29.79463" height="90.32" fill="#000" id="svg_6" stroke="#000"/>
+   <line x1="369.41318" x2="369.41318" y1="453.46666" y2="513.67999" stroke-width="3" id="svg_7" stroke="#000"/>
+   <line x1="399.20781" x2="399.20781" y1="453.46666" y2="513.67999" stroke-width="3" id="svg_8" stroke="#000"/>
+   <line x1="458.79707" x2="458.79707" y1="453.46666" y2="513.67999" stroke-width="3" id="svg_9" stroke="#000"/>
+   <line x1="488.59171" x2="488.59171" y1="453.46666" y2="513.67999" stroke-width="3" id="svg_10" stroke="#000"/>
+   <rect x="309.82391" y="423.35999" width="238.35706" height="30.10667" fill="#28a" rx="10" ry="10" stroke-width="3" id="svg_11" stroke="#000"/>
+   <path d="m220.44002,302.93333c-89.3839,0 -113.2196,-81.288 -29.79463,-150.53333c178.76779,-150.53333 297.94632,-150.53333 476.71412,0c104.28121,90.32 29.79463,135.48 -29.79463,150.53333c-148.97316,-180.64 -268.15169,-180.64 -417.12485,0" fill="#f02b35" stroke-width="3" id="svg_12" stroke="#000"/>
+   <line x1="311.81022" x2="220.44002" y1="429.38133" y2="302.93333" stroke-width="3" id="svg_13" stroke="#000"/>
+   <line x1="339.61855" x2="250.23465" y1="423.35999" y2="272.82666" stroke-width="3" id="svg_14" stroke="#000"/>
+   <line x1="369.41318" x2="309.82391" y1="423.35999" y2="212.61333" stroke-width="3" id="svg_15" stroke="#000"/>
+   <line x1="399.20781" x2="369.41318" y1="423.35999" y2="182.50666" stroke-width="3" id="svg_16" stroke="#000"/>
+   <line x1="429.00244" x2="429.00244" y1="423.35999" y2="167.45333" stroke-width="3" id="svg_17" stroke="#000"/>
+   <line x1="458.79707" x2="488.59171" y1="423.35999" y2="182.50666" stroke-width="3" id="svg_18" stroke="#000"/>
+   <line x1="488.59171" x2="548.18097" y1="423.35999" y2="212.61333" stroke-width="3" id="svg_19" stroke="#000"/>
+   <line x1="518.38634" x2="607.77024" y1="423.35999" y2="272.82666" stroke-width="3" id="svg_20" stroke="#000"/>
+   <line x1="546.19466" x2="637.56487" y1="429.38133" y2="302.93333" stroke-width="3" id="svg_21" stroke="#000"/>
+   <rect x="369.41318" y="92.18667" width="119.17853" height="30.10667" fill="#000" rx="10" ry="10" id="svg_22" stroke="#000"/>
+   <circle cx="265.13196" cy="167.45333" r="14.89732" fill="#000" id="svg_23" stroke="#000"/>
+   <circle cx="205.5427" cy="227.66666" r="14.89732" fill="#000" id="svg_24" stroke="#000"/>
+   <circle cx="592.87292" cy="167.45333" r="14.89732" fill="#000" id="svg_25" stroke="#000"/>
+   <circle cx="652.46218" cy="227.66666" r="14.89732" fill="#000" id="svg_26" stroke="#000"/>
+    
+  <!-- Код, отвечающий за движение параплана. -->
+  <animateTransform attributeName="transform" id="p1" attributeType="XML" type="translate" from="-720, 130" to="-520, -20" begin="0; p8.end" dur="5s" repeatCount="1" />
+  <animateTransform attributeName="transform" id="p2" attributeType="XML" type="translate" from="-520, -20" to="-320, 130" begin="p1.end" dur="5s" repeatCount="1" additive="sum" />
+  <animateTransform attributeName="transform" id="p3" attributeType="XML" type="translate" from="-320, 130" to="-120, -20" begin="p2.end" dur="5s" repeatCount="1" additive="sum"/>
+  <animateTransform attributeName="transform" id="p4" attributeType="XML" type="translate" from="-120, -20" to="80, 130" begin="p3.end" dur="5s" repeatCount="1" additive="sum" />
+  <animateTransform attributeName="transform" id="p5" attributeType="XML" type="translate" from="80, 130" to="280, -20" begin="p4.end" dur="5s" repeatCount="1" additive="sum" />
+  <animateTransform attributeName="transform" id="p6" attributeType="XML" type="translate" from="280, -20" to="480, 130" begin="p5.end" dur="5s" repeatCount="1" additive="sum" />
+  <animateTransform attributeName="transform" id="p7" attributeType="XML" type="translate" from="480, 130" to="680, -20" begin="p6.end" dur="5s" repeatCount="1" additive="sum" />
+  <animateTransform attributeName="transform" id="p8" attributeType="XML" type="translate" from="680, -20" to="880, -130" begin="p7.end" dur="5s" repeatCount="1" additive="sum" />
+   </g>
+	</g>
+</svg>  
